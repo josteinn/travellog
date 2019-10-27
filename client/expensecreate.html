@@ -26,7 +26,7 @@
 
     btnCreate.addEventListener('click', async function(evt) {
 
-        let url = "http://localhost/expenses";
+        let url = "https://jostein-travellog.herokuapp.com/expenses";
 
         let logindata = JSON.parse(sessionStorage.getItem("logindata"));
         let token = logindata.token;
